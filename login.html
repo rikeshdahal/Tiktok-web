@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <script defer src="login.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h2 id="back"> ❌</h2>
+    <div id="logo" ><img src="https://i.postimg.cc/HxmPT1x3/logo.png"></div>
+    <h1 id="login" >Login</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+      <style>
+        #logo {
+          padding: 0;
+      }
+      
+      #logo img {
+          width: 80%;
+      }
+        #login{
+          height:30px;
+          margin: 1px;
+          font-size: 62px;
+          padding: -3px;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+        }
+        #back{
+          width: 100%;
+          text-align: right;
+          height:40px;
+          margin: 1px;
+          padding: -3px;
+          font-weight: bold;
+        }
+        #username-field {
+          background: Transparent; /* For browsers that do not support gradients */
+          border-radius: 19px;
+          border: 6px white solid;
+          color: white;
+          padding: 6px 20px;
+          display: inline-block;
+          font-size: 20px;
+          height: auto;
+          font-family: sadflix;
+      }
+        #password-field {
+          background: Transparent; /* For browsers that do not support gradients */
+          border-radius: 19px;
+          border: 6px white solid;
+          color: white;
+          padding: 6px 20px;
+          display: inline-block;
+          font-size: 20px;
+          height: auto;
+          font-family: sadflix;
+      }
+      #login-form-submit {
+        background: Transparent; /* For browsers that do not support gradients */
+        border-radius: 19px;
+        border: 6px white solid;
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+        height: auto;
+        padding: -2px 10px;
+        font-family: sadflix;
+        cursor: pointer;
+    }
+      </style>
+    </form>
+  
+  </main>
+</body>
+
+</html>

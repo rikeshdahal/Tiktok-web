@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>TikTok</title>
+    <script
+      src="https://kit.fontawesome.com/1a015cf62c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img class="logo" href="login.html" src="https://i.postimg.cc/g0MMk3tf/tiktok.png" alt="Tiktok" />
+        <div class="search-bar">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search accounts and videos"
+          />
+          <button class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <div class="nav-right">
+          <button class="upload-btn">Upload</button>
+          <button class="login-btn">Log in</button>
+          <div class="drop-down">
+            <i class="fas fa-ellipsis-v fa-lg"></i>
+            <div class="menu hidden">
+              <ul>
+                <li>
+                  <a href="#"><i class="fas fa-font fa-lg"></i> English</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="far fa-question-circle fa-lg"></i>
+
+                    Feedbackg and help</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="far fa-keyboard fa-lg"></i>Keyboard shortcuts</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <div class="left">
+            <div class="btns">
+                <a href="#"><i class="fas fa-home"></i> <span>For You</span></a>
+                <a href="#"><i class="fas fa-user-friends"></i> <span>Following</span></a>
+                <a href="#"><i class="fas fa-video"></i> <span>Live</span></a>
+              </div>
+            <div class="login">
+                <p>Log in to follow creators, like videos, and view comments</p>
+                <button href="login.html">Log in</button>
+            </div>
+            <div class="accounts">
+                <p>Suggested accounts</p>
+                <div class="user">
+                    <img src="https://i.postimg.cc/Kzs14Wxn/ronaldo.png" alt="avatar">
+                    <h6 class="username">RONALDO✅</h6>
+                </div>
+                <div class="user">
+                    <img src="https://i.postimg.cc/RSGfjs5C/fcb.png" alt="avatar">
+                    <h6 class="username">FCB✅</h6>
+                </div>
+                <div class="user">
+                    <img src="https://i.postimg.cc/tTg1qbQq/garina.png" alt="avatar">
+                    <h6 class="username">GARINA✅</h6>
+                </div>
+                <div class="user">
+                    <img src="https://i.postimg.cc/25GbN6t9/messi.png" alt="avatar">
+                    <h6 class="username">MESSI✅</h6>
+                </div>
+                <div class="user">
+                    <img src="https://i.postimg.cc/52rzTLBn/kahabe.png" alt="avatar">
+                    <h6 class="username">KHABY.LAME✅</h6>
+                </div>
+                <div class="more">see all</div>
+            </div>
+            <div class="tags">
+                <p>Discover</p>
+                <div>
+                    <a href="#"># rikeshdahal</a>
+                    <a href="#"># mrmadhacker</a>
+                    <a href="#"># music</a>
+                    <a href="#"># memories</a>
+                    <a href="#"># whoisbetter</a>
+                    <a href="#"># tiktokhero</a>
+                    <a href="#"># summeressentials</a>
+                    <a href="#"># brokenmusic</a>
+                    <a href="#"># dancing</a>
+                    <a href="#"># messi</a>
+                </div>
+            </div>
+            <div class="links">
+                <div>
+                    <div class="link">
+                        <a href="#">About</a>
+                        <a href="#">Newsroom</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Careers</a>
+                        <a href="#">ByteDance</a>
+                        <a href="#">About</a>
+                        <a href="#">Newsroom</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Careers</a>
+                        <a href="#">ByteDance</a>
+                    </div>
+                    <div class="copyright">
+                        <h6>&copy; 2022 jikjok</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <!-- new -->
+            <div class="post">
+                <div class="post-info">
+                    <div class="user">
+                        <img src="https://i.postimg.cc/25GbN6t9/messi.png" alt="avatar">
+                        <div>
+                            <h6>MESSI✅</h6>
+                            <p>I Remember The Day❤️</p>
+                            <i class="fa-solid fa-music-note"></i>
+                            <marquee >original sound - MESSI✅</marquee>
+                        </div>
+                    </div>
+                    <button id="btnText1" >Follow</button>
+                </div>
+                <div class="post-content">
+                    <video  autoplay muted controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
+                        <source src="https://v16-webapp.tiktok.com/c95b3d105682e6513075c8ad5d5f985b/6298bf69/video/tos/useast2a/tos-useast2a-pve-0068/635e199dcad54f1883c9d39311ca9681/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=4460&bt=2230&btag=80000&cs=0&ds=3&ft=eXd.6HFJMyq8Z-RUkwe2NWehml7Gb&mime_type=video_mp4&qs=0&rc=NTs5Njk3NDRkOzUzMzg1NUBpM2xnczQ6ZnJ4ZDMzNzczM0BfMzJhNGAyXjQxYGI0Ml5gYSNoLzVhcjRvLV9gLS1kMTZzcw%3D%3D&l=20220602074620010245244165041E27FB" type="video/mp4">
+                    </video>
+                    <div class="video-icons">
+                        <a href="#"><i  class="heart1">🤍</i><span id ="love1">11.6M</span></a>
+                        <a href="#"><i class="fas fa-comment-dots fa-lg"></i><span>4023</span></a>
+                        <a href="#"><i class="fas fa-share fa-lg"></i> <span><strong data-e2e="share-count" class="tiktok-1y2yo26-StrongText e1pqpokj2">1050</strong></span></a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+ <!-- new -->
+            <div class="post">
+                <div class="post-info">
+                    <div class="user">
+                        <img src="https://i.postimg.cc/Kzs14Wxn/ronaldo.png" alt="avatar">
+                        <div>
+                            <h6>RONALDO✅</h6>
+                            <p>Cool Videos</p>
+                            <i class="fa-solid fa-music-note"></i>
+                            <marquee >original sound - jungkookiee<3</marquee>
+                        </div>
+                    </div>
+                    <button id="btnText2" >Follow</button>
+                </div>
+                <div class="post-content">
+                    <video  autoplay muted controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
+                        <source src="https://v16-webapp.tiktok.com/16ef1b17775986097f1a4a725f2892ff/6298bc89/video/tos/useast2a/tos-useast2a-ve-0068c001/f54d9f63dc6a42bcac714186b7485dbd/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=2532&bt=1266&btag=80000&cs=0&ds=3&ft=eXd.6HFJMyq8ZPSUkwe2NrSF2l7Gb&mime_type=video_mp4&qs=0&rc=PDs2aDk5Njw0Z2dpZzs4NkBpMzhycTY6ZjloOjMzNzczM0AyMGA2MDZiNmExYl9iNi0zYSNhZC80cjRfMXJgLS1kMTZzcw%3D%3D&l=20220602073442010245242197121D6A17" type="video/mp4">
+                    </video>
+                    <div class="video-icons">
+                        <a href="#"><i  class="heart2">🤍</i><span id ="love2">1.40M</span></a>
+                        <a href="#"><i class="fas fa-comment-dots fa-lg"></i><span>4023</span></a>
+                        <a href="#"><i class="fas fa-share fa-lg"></i> <span><strong data-e2e="share-count" class="tiktok-1y2yo26-StrongText e1pqpokj2">1050</strong></span></a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+<!-- new -->
+            <div class="post">
+                <div class="post-info">
+                    <div class="user">
+                        <img src="https://i.postimg.cc/tTg1qbQq/garina.png" alt="avatar">
+                        <div>
+                            <h6>GARINA✅</h6>
+                            <p>GAMEPLAY</p>
+                            <marquee >original sound - GARINA✅<3</marquee>
+                        </div>
+                    </div>
+                    <button id="btnText3">Follow</button>
+                </div>
+                <div class="post-content">
+                    <video autoplay muted controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
+                        <source src="https://v16-webapp.tiktok.com/9a1898c34790d7aec2b7270bb5146b74/6298988e/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/d1f4918104444ed495667b8e7e00aee8/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2536&bt=1268&btag=80000&cs=0&ds=3&ft=eXd.6HFJMyq8Z2Tdkwe2NKlhml7Gb&mime_type=video_mp4&qs=0&rc=ZDNnPDczNjY8ZDc2aDo4NkBpM3RteDg6ZjZwZDMzZjgzM0AxMGNiYTMxNS8xNS4yL2NgYSMvbC9qcjQwNTRgLS1kL2Nzcw%3D%3D&l=20220602050116010245019054110D7551" type="video/mp4">
+                    </video>
+                    <div class="video-icons">
+                        <a href="#"><i  class="heart3">🤍</i><span id ="love3">30.60M</span></a>
+                        <a href="#"><i class="fas fa-comment-dots fa-lg"></i><span>423K</span></a>
+                        <a href="#"><i class="fas fa-share fa-lg"></i> <span>150K</span></a>
+                    </div>
+                </div>
+            </div>
+<!-- new -->
+<div class="post">
+    <div class="post-info">
+        <div class="user">
+            <img src="https://i.postimg.cc/RSGfjs5C/fcb.png" alt="avatar">
+            <div>
+                <h6>FCB✅</h6>
+                <p>messi last game play</p>
+                <marquee >original sound - FCB✅<3</marquee>
+            </div>
+        </div>
+        <button id="btnText4">Follow</button>
+    </div>
+    <div class="post-content">
+        <video id="videoclip" autoplay muted controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
+            <source src="https://v16-webapp.tiktok.com/e2793d3fd75340c1b7ac505197f5108b/6297578c/video/tos/alisg/tos-alisg-pve-0037c001/d33b879ef8724fb0aeb0fd545a7f06b9/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=2462&bt=1231&btag=80000&cs=0&ds=3&ft=eXd.6HFJMyq8Z5KHvwe2NDnhml7Gb&mime_type=video_mp4&qs=0&rc=Zzk3M2c4ZTUzODk0ZDs2aUBpM2xtNjY6ZnM1OzMzODczNEAvLTUtYV4wXzAxNDItLTJfYSNqYW5zcjRfZzBgLS1kMS1zcw%3D%3D&l=20220601061143010251002156100F89D1" type="video/mp4">
+        </video>
+        <div class="video-icons">
+            <a href="#"><i  class="heart4">🤍</i><span id ="love4">171.6K</span></a>
+            <a href="#"><i class="fas fa-comment-dots fa-lg"></i><span>423K</span></a>
+            <a href="#"><i class="fas fa-share fa-lg"></i> <span>500K</span></a>
+        </div>
+    </div>
+    <!-- new -->
+    <div class="post">
+        <div class="post-info">
+            <div class="user">
+                <img src="https://i.postimg.cc/52rzTLBn/kahabe.png" alt="avatar">
+                <div>
+                    <h6>KHABY.LAME✅</h6>
+                    <p>The dream of every child, Finally I met him! A Legend🥺.</p>
+                    <i class="fa-solid fa-music-note"></i>
+                    <marquee >suono originale - Khabane lame</marquee>
+                </div>
+            </div>
+            <button id="btnText5" >Follow</button>
+        </div>
+        <div class="post-content">
+            <video id="videoclip5" autoplay muted controls loop disablepictureinpicture controlslist="nodownload noplaybackrate">
+                <source src="https://v16-webapp.tiktok.com/4b384bad825b647db793256d6872b120/6298bb61/video/tos/useast2a/tos-useast2a-ve-0068c004/7c0beb4aac834c06be1091ccab27d971/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3612&bt=1806&btag=80000&cs=0&ds=3&ft=eXd.6HFJMyq8ZMUUkwe2NH~hml7Gb&mime_type=video_mp4&qs=0&rc=NDlkZTU1Mzc5Nzs8OzU4NUBpMzx3OGQ6Zml2PDMzNzczM0BjX2AuLmNjX2IxMzY1YWI2YSNtbTZzcjRvcXNgLS1kMTZzcw%3D%3D&l=202206020729500102451411110A1CBDE8" type="video/mp4">
+            </video>
+            <div class="video-icons">
+                <a href="#"><i  class="heart5">🤍</i><span id ="love5">5.8M</span></a>
+                <a href="#"><i class="fas fa-comment-dots fa-lg"></i><span>4023</span></a>
+                <a href="#"><i class="fas fa-share fa-lg"></i> <span><strong data-e2e="share-count" class="tiktok-1y2yo26-StrongText e1pqpokj2">1050</strong></span></a>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
