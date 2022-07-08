@@ -1,2 +1,2 @@
 # Tiktok-web
-preview 👉🏾https://rikeshgame.github.io/Tiktok-web/
+preview 👉🏾https://rikeshdahal.github.io/Tiktok-web/
